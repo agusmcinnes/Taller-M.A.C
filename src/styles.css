@@ -638,8 +638,13 @@ footer .red__header{
     }
 }
 
+.aparecer{
+    opacity: 0;
+    scale: 0.2;
+}
+
 .aparecer.animacion {
-    animation: fadeIn 1s ease-in-out;
+    animation: fadeIn 1s both;
 }
 
 .aparecer__izquierda.animacion__izquierda {
@@ -680,6 +685,36 @@ footer .red__header{
 @keyframes slideInRight {
     from {
         transform: translateX(100%);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+.aparecer__izquierda.animacion__izquierda_suave {
+    animation: slideInLeftSuave 2s 0.8s both;
+}
+
+.aparecer__derecha.animacion__derecha_suave {
+    animation: slideInRightSuave 1.5s both;
+}
+
+@keyframes slideInLeftSuave {
+    from {
+        transform: translateX(-40%);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+@keyframes slideInRightSuave {
+    from {
+        transform: translateX(40%);
         opacity: 0;
     }
     to {

@@ -20,7 +20,7 @@ function App() {
             <header>
                 <div className='redes header__item'>
                     <div className='red__header'>
-                        <a href="https://web.whatsapp.com/" target='BLANK'>
+                        <a href="https://wa.link/kzfqbz" target='BLANK'>
                         <FontAwesomeIcon icon={faWhatsapp} />
                         <span>223-1111-111</span>
                     </a>
@@ -34,7 +34,7 @@ function App() {
 
                     </div>
                     <div className='red__header'>
-                    <a href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox" target='BLANK'>
+                    <a href="#contacto">
                         <FontAwesomeIcon icon={faEnvelope} />
                         <span>soycarlitos@gmail.com</span>
                     </a>
@@ -47,7 +47,7 @@ function App() {
                         <a href="#conocenos">Conócenos</a>
                     </li>
                     <li className="nav__item">
-                        <a href="#ploter">Ploteados</a>
+                        <a href="#ploter">Ploteos</a>
                     </li>
                     <li className="nav__item">
                         <a href="#contacto">Contáctanos</a>
@@ -90,9 +90,9 @@ function App() {
                 <span className='contactanos__title'>Contáctanos</span>
                 <div className='redes__footer'>
                     <div className='red__header red__footer'>
-                        <a href="https://web.whatsapp.com/"  target='BLANK'>
+                        <a href="https://wa.link/kzfqbz"  target='BLANK'>
                         <FontAwesomeIcon icon={faWhatsapp} className='whatsapp'/>
-                        <span>223-1111-111</span>
+                        <span>223-636-3450</span>
                     </a>
                     </div>
                     <div className='red__header red__footer'>
