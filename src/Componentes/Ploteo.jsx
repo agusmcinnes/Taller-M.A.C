@@ -20,7 +20,9 @@ function useIntersectionAnimations() {
                             element.classList.add('animacion__izquierda');
                         } else if (element.classList.contains('aparecer__derecha')) {
                             element.classList.add('animacion__derecha');
-                        }
+                        }  else if (element.classList.contains('aparecer__izquierda__suave')) {
+                            element.classList.add('animacion__izquierda_suave');
+                        } 
                         observer.unobserve(element); // Deja de observar después de animar.
                     }
                 });
@@ -30,7 +32,7 @@ function useIntersectionAnimations() {
 
         // Seleccionamos todos los elementos con las clases necesarias.
         const elements = document.querySelectorAll(
-            '.aparecer, .aparecer__izquierda, .aparecer__derecha'
+            '.aparecer, .aparecer__izquierda, .aparecer__derecha, .aparecer__izquierda__suave'
         );
 
         elements.forEach((el) => observer.observe(el));
@@ -47,8 +49,8 @@ const Ploteo = () => {
   return (
     <section className='ploteo' id='ploter'>
         <div className='ploteo__text'>
-            <h2 className='ploteo__title'>Servicio de ploteo</h2>
-            <p className="ploteo__p">¡Transformá tu vehículo con nuestro <strong>servicio de ploteo</strong>! En nuestro taller, te ofrecemos una solución innovadora y práctica para renovar el aspecto de tu auto, camioneta o moto sin compromisos permanentes.</p>
+            <h2 className='ploteo__title aparecer__izquierda__suave'>Servicio de ploteo</h2>
+            <p className="ploteo__p aparecer__izquierda__suave">¡Transformá tu vehículo con nuestro <strong>servicio de ploteo</strong>! En nuestro taller, te ofrecemos una solución innovadora y práctica para renovar el aspecto de tu auto, camioneta o moto sin compromisos permanentes.</p>
         </div>
         <div className='ploteo__tiks'>
             <div className="tik aparecer__izquierda">
@@ -71,9 +73,9 @@ const Ploteo = () => {
             <img src={ploteo4} alt="PLOTEO 4" loading='lazy' className='aparecer'/>
         </div>
         <div className='ploteo__precios'>
-            <h3 className='ploteo__title'>Precios económicos. ¿Qué esperás?</h3>
-            <h4 className='ploteo__subtitle'>¡Ponéle color a tu vida, ponéle color a tu auto!</h4>
-            <p className='ploteo__p'>Pintura inteligente de secado rápido, colores brillantes y colores mate. En 48 horas, retiras tu vehículo totalmente pintado y con el color que vos elijas.</p>
+            <h3 className='ploteo__title aparecer__izquierda__suave'>Precios económicos. ¿Qué esperás?</h3>
+            <h4 className='ploteo__subtitle aparecer__izquierda__suave'>¡Ponéle color a tu vida, ponéle color a tu auto!</h4>
+            <p className='ploteo__p aparecer__izquierda__suave'>Pintura inteligente de secado rápido, colores brillantes y colores mate. En 48 horas, retiras tu vehículo totalmente pintado y con el color que vos elijas.</p>
         </div>
     </section>
   )

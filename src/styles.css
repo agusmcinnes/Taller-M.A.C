@@ -591,7 +591,7 @@ footer{
 }
 
 .whatsapp{
-    font-size: clamp(2.2rem, 1.8vw, 2.6rem);
+    font-size: clamp(1.8rem, 1.8vw, 2.6rem);
     transform: translateY(-7%);
 }
 
@@ -694,7 +694,11 @@ footer .red__header{
 }
 
 .aparecer__izquierda.animacion__izquierda_suave {
-    animation: slideInLeftSuave 2s 0.8s both;
+    animation: slideInLeftSuave 2s 0.4s both;
+}
+
+.aparecer__izquierda__suave.animacion__izquierda_suave {
+    animation: slideInLeftSuave 2s 0.4s both;
 }
 
 .aparecer__derecha.animacion__derecha_suave {

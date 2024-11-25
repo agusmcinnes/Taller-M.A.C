@@ -36,7 +36,7 @@ function App() {
                     <div className='red__header'>
                     <a href="#contacto">
                         <FontAwesomeIcon icon={faEnvelope} />
-                        <span>soycarlitos@gmail.com</span>
+                        <span>codarabe@gmail.com</span>
                     </a>
                     </div>
             </div>
@@ -99,14 +99,14 @@ function App() {
                     <a href="https://www.facebook.com/home.php" target='BLANK'>
                         
                         <FontAwesomeIcon icon={faFacebook} />
-                        <span>boeeeeeee</span>
+                        <span>@facebook</span>
                     </a>
 
                     </div>
                     <div className='red__header red__footer'>
                     <a href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox" target='BLANK'>
                         <FontAwesomeIcon icon={faEnvelope} />
-                        <span>soycarlitos@gmail.com</span>
+                        <span>codarabe@gmail.com</span>
                     </a>
                     </div>
                 </div>
