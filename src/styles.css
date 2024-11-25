@@ -404,7 +404,7 @@ header{
     font-size: clamp(1rem, 1.4vw, 2rem);
 }
 
-.tik img{
+.tik__img{
     width: clamp(30px, 5vw, 80px);
     height: fit-content;
 }
@@ -448,8 +448,8 @@ header{
     object-fit: cover;
     width: 100%;
     height: auto;
-    border-top: 3px solid#FE7C00;
-    border-left: 3px solid#FE7C00;
+    border-top: 3px solid #FE7C00;
+    border-left: 3px solid #FE7C00;
     border-right: 3px solid #000;
     border-bottom: 3px solid #000;
     transition: all 0.4s;
@@ -621,3 +621,43 @@ footer .red__header{
     }
 }
 
+.aparecer{
+    scale: 0.2;
+    opacity: 0;
+    transition: all 1.7s;
+}
+
+.animacion{
+    scale: 1;
+    opacity: 1;
+}
+
+.aparecer__izquierda.animacion__izquierda {
+    animation: slideInLeft 1.6s ease-in-out;
+}
+
+.aparecer__derecha.animacion__derecha {
+    animation: slideInRight 1.6s ease-in-out;
+}
+
+@keyframes slideInLeft {
+    from {
+        transform: translateX(-100%);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+@keyframes slideInRight {
+    from {
+        transform: translateX(100%);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
