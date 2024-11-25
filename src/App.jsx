@@ -6,62 +6,27 @@ import { faEnvelope } from '@fortawesome/free-regular-svg-icons';
 import { faMapLocationDot } from '@fortawesome/free-solid-svg-icons/faMapLocationDot';
 import Conocenos from './Componentes/Conocenos';
 import Ploteo from './Componentes/Ploteo';
-import { XyzTransition, XyzTransitionGroup } from '@animxyz/react'
-import { useEffect } from 'react';
+
 
 import logo from './imagenes M.A.C/logo__header.png'
 import logo__firstPage from './imagenes M.A.C/logo_MAC_GRANDE.webp'
 import mustang from './imagenes M.A.C/mustangCalidad.webp'
 
-function useIntersectionAnimations() {
-    useEffect(() => {
-        const observer = new IntersectionObserver(
-            (entries) => {
-                entries.forEach((entry) => {
-                    if (entry.isIntersecting) {
-                        const element = entry.target;
-                        if (element.classList.contains('aparecer')) {
-                            element.classList.add('animacion');
-                        } else if (element.classList.contains('aparecer__izquierda')) {
-                            element.classList.add('animacion__izquierda');
-                        } else if (element.classList.contains('aparecer__derecha')) {
-                            element.classList.add('animacion__derecha');
-                        }
-                        observer.unobserve(element); // Deja de observar después de animar.
-                    }
-                });
-            },
-            { threshold: 0.1 } // 10% del elemento visible para activarlo.
-        );
-
-        // Seleccionamos todos los elementos con las clases necesarias.
-        const elements = document.querySelectorAll(
-            '.aparecer, .aparecer__izquierda, .aparecer__derecha'
-        );
-
-        elements.forEach((el) => observer.observe(el));
-
-        // Cleanup al desmontar el componente.
-        return () => observer.disconnect();
-    }, []);
-}
-
 
 function App() {
-    useIntersectionAnimations();
 
     return (
         <div className="App">
             <header>
                 <div className='redes header__item'>
                     <div className='red__header'>
-                        <a href="https://web.whatsapp.com/">
+                        <a href="https://web.whatsapp.com/" target='BLANK'>
                         <FontAwesomeIcon icon={faWhatsapp} />
                         <span>223-1111-111</span>
                     </a>
                     </div>
                     <div className='red__header'>
-                    <a href="https://www.facebook.com/home.php">
+                    <a href="https://www.facebook.com/home.php" target='BLANK'>
                         
                         <FontAwesomeIcon icon={faFacebook} />
                         <span>boeeeeeee</span>
@@ -69,7 +34,7 @@ function App() {
 
                     </div>
                     <div className='red__header'>
-                    <a href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox">
+                    <a href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox" target='BLANK'>
                         <FontAwesomeIcon icon={faEnvelope} />
                         <span>soycarlitos@gmail.com</span>
                     </a>
@@ -79,13 +44,13 @@ function App() {
             <nav className="navbar header__item">
                 <ul className="nav__list">
                     <li className="nav__item">
-                        <a href="#">Conócenos</a>
+                        <a href="#conocenos">Conócenos</a>
                     </li>
                     <li className="nav__item">
                         <a href="#ploter">Ploteados</a>
                     </li>
                     <li className="nav__item">
-                        <a href="#">Contáctanos</a>
+                        <a href="#contacto">Contáctanos</a>
                     </li>
                 </ul>
             </nav>
@@ -98,12 +63,12 @@ function App() {
         <main>
             <div className='first__page'>
                 <div className="first__page-text">
-                    <img src={logo__firstPage} alt="Taller MAC" className='aparecer'/>
+                    <img src={logo__firstPage} alt="Taller MAC"/>
                     <h1>Especializados en <strong className="texto__naranja aparecer">pintura renovable</strong></h1>
-                    <a href='#ploter' className='button__ploteo aparecer__izquierda'>Ploteo en acción!</a>
+                    <a href='#ploter' className='button__ploteo'>Ploteo en acción!</a>
                 </div>
                 <div className='mustang'>
-                    <img src={mustang} alt="Mustang" loading='lazy' className='aparecer__derecha'/>
+                    <img src={mustang} alt="Mustang" loading='lazy'/>
 
                 </div>
 
@@ -117,7 +82,7 @@ function App() {
             </div>
             <Ploteo></Ploteo>
         </main>
-        <footer>
+        <footer id='contacto'>
             <div className='logo__footer'>
                 <img src={logo} alt="" />
             </div>
@@ -125,13 +90,13 @@ function App() {
                 <span className='contactanos__title'>Contáctanos</span>
                 <div className='redes__footer'>
                     <div className='red__header red__footer'>
-                        <a href="https://web.whatsapp.com/">
+                        <a href="https://web.whatsapp.com/"  target='BLANK'>
                         <FontAwesomeIcon icon={faWhatsapp} className='whatsapp'/>
                         <span>223-1111-111</span>
                     </a>
                     </div>
                     <div className='red__header red__footer'>
-                    <a href="https://www.facebook.com/home.php">
+                    <a href="https://www.facebook.com/home.php" target='BLANK'>
                         
                         <FontAwesomeIcon icon={faFacebook} />
                         <span>boeeeeeee</span>
@@ -139,7 +104,7 @@ function App() {
 
                     </div>
                     <div className='red__header red__footer'>
-                    <a href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox">
+                    <a href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox" target='BLANK'>
                         <FontAwesomeIcon icon={faEnvelope} />
                         <span>soycarlitos@gmail.com</span>
                     </a>

@@ -171,6 +171,7 @@ header{
     max-width: 100%;
     height: 80vh;
     align-items: center;
+    overflow: hidden;
 }
 
 .first__page-text{
@@ -180,10 +181,12 @@ header{
     justify-content: center;
     overflow: hidden;
     width: 50%;
+
 }
 
 .first__page-text img{
     width: clamp(300px, 70%, 600px);
+    animation: fadeIn 1s ease-in-out;
 }
 
 .first__page-text h1{
@@ -206,6 +209,7 @@ header{
     position: relative;
     transition: all 0.6s ease;
     overflow: hidden;
+    animation: slideInLeft 1.6s ease-in-out;
 }
 
 .button__ploteo::after {
@@ -234,10 +238,12 @@ header{
 .mustang{
     width: 50%;
     text-align: center;
+    animation: slideInRight 1.6s ease-in-out;
 }
 
 .mustang img{
     width: clamp(300px, 90%, 600px);
+
 }
 
 @media screen and (max-width: 1130px) {
@@ -363,6 +369,7 @@ header{
     height: fit-content;
     gap: 65px;
     padding: 100px 0;
+    overflow: hidden;
 }
 
 .ploteo__text{
@@ -531,7 +538,11 @@ footer{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 20px;
+    gap: 40px;
+}
+
+.contactanos__title{
+    font-size: clamp(1.3rem, 1.5vw, 2rem);
 }
 
 .footer__direc{
@@ -621,24 +632,29 @@ footer .red__header{
     }
 }
 
-.aparecer{
-    scale: 0.2;
-    opacity: 0;
-    transition: all 1.7s;
-}
-
-.animacion{
-    scale: 1;
-    opacity: 1;
-}
-
 .aparecer__izquierda.animacion__izquierda {
-    animation: slideInLeft 1.6s ease-in-out;
+    transform: translateX(-100%);
+    opacity: 0;
+    animation: slideInLeft 1.6s both;
 }
 
 .aparecer__derecha.animacion__derecha {
-    animation: slideInRight 1.6s ease-in-out;
+    transform: translateX(100%);
+    opacity: 0;
+    animation: slideInRight 1.6s both;
 }
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        scale: 0.2;
+    }
+    to {
+        opacity: 1;
+        scale: 1;
+    }
+}
+
 
 @keyframes slideInLeft {
     from {

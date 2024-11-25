@@ -22,7 +22,7 @@ const Conocenos = () => {
         })}
         </script>
     </Helmet>
-        <section className='conocenos'>
+        <section className='conocenos' id='conocenos'>
                 <div className="conocenos__text">
                     <h2 className='conocenos__title'>
                     Conócenos: Especialistas en Ploteo, Chapa y Pintura

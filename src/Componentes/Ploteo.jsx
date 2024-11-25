@@ -25,7 +25,7 @@ function useIntersectionAnimations() {
                     }
                 });
             },
-            { threshold: 0.7 } // 10% del elemento visible para activarlo.
+            { threshold: 0.1 } // 10% del elemento visible para activarlo.
         );
 
         // Seleccionamos todos los elementos con las clases necesarias.
