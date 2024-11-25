@@ -2,7 +2,7 @@
   "name": "codigo",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http:/agusmcinnes.github.io/TALLER-M.A.C",
+  "homepage": "http://agusmcinnes.github.io/Taller-M.A.C",
   "dependencies": {
     "@animxyz/core": "^0.6.6",
     "@animxyz/react": "^0.6.7",
