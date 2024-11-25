@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/TALLER-M.A.C/static/css/main.f4716258.css",
+    "main.js": "/TALLER-M.A.C/static/js/main.f42d4058.js",
+    "static/media/Montserrat-BoldItalic.ttf": "/TALLER-M.A.C/static/media/Montserrat-BoldItalic.a169c71c1eb466896fe1.ttf",
+    "static/media/Montserrat-Italic.ttf": "/TALLER-M.A.C/static/media/Montserrat-Italic.f4a742d68090a0bfc33f.ttf",
+    "static/media/Montserrat-ExtraLightItalic.ttf": "/TALLER-M.A.C/static/media/Montserrat-ExtraLightItalic.8df5777e3ea85687bdf0.ttf",
+    "static/media/Montserrat-Medium.ttf": "/TALLER-M.A.C/static/media/Montserrat-Medium.b8c6753baa964ccac1ba.ttf",
+    "static/media/Montserrat-Light.ttf": "/TALLER-M.A.C/static/media/Montserrat-Light.7179b7d2ac9b599db5f9.ttf",
+    "static/media/Montserrat-Regular.ttf": "/TALLER-M.A.C/static/media/Montserrat-Regular.24785cc015b27a3e964b.ttf",
+    "static/media/ploteo5.webp": "/TALLER-M.A.C/static/media/ploteo5.83f6c9e4927b62669c90.webp",
+    "static/media/mustangCalidad.webp": "/TALLER-M.A.C/static/media/mustangCalidad.bf16f3ea35c4c9856205.webp",
+    "static/media/logo_MAC_GRANDE.webp": "/TALLER-M.A.C/static/media/logo_MAC_GRANDE.326c107697bd49d8e7f5.webp",
+    "static/media/ploteo6.webp": "/TALLER-M.A.C/static/media/ploteo6.34abcb4acf5af4e0b57a.webp",
+    "static/media/colorQueQuierasCellphone.webp": "/TALLER-M.A.C/static/media/colorQueQuierasCellphone.6e2ea59cb96fad4dd142.webp",
+    "static/media/logo__header.png": "/TALLER-M.A.C/static/media/logo__header.c93b4a2f76827feceb44.png",
+    "static/media/ploteo4.jpeg": "/TALLER-M.A.C/static/media/ploteo4.518d42c215ad9a72160b.jpeg",
+    "static/media/colorQueQuieras.webp": "/TALLER-M.A.C/static/media/colorQueQuieras.c6639eb7c2d960d25919.webp",
+    "static/media/ploteo1.jpeg": "/TALLER-M.A.C/static/media/ploteo1.d5e7e9a19e6c3ea1f7ac.jpeg",
+    "static/media/checkbox.webp": "/TALLER-M.A.C/static/media/checkbox.db64ee63480a5506288d.webp",
+    "index.html": "/TALLER-M.A.C/index.html",
+    "main.f4716258.css.map": "/TALLER-M.A.C/static/css/main.f4716258.css.map",
+    "main.f42d4058.js.map": "/TALLER-M.A.C/static/js/main.f42d4058.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f4716258.css",
+    "static/js/main.f42d4058.js"
+  ]
+}
