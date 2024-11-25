@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Taller-M.A.C/static/css/main.995905e3.css",
-    "main.js": "/Taller-M.A.C/static/js/main.915652d0.js",
+    "main.css": "/Taller-M.A.C/static/css/main.e1f5fdda.css",
+    "main.js": "/Taller-M.A.C/static/js/main.194164f7.js",
     "static/media/Montserrat-BoldItalic.ttf": "/Taller-M.A.C/static/media/Montserrat-BoldItalic.a169c71c1eb466896fe1.ttf",
     "static/media/Montserrat-Italic.ttf": "/Taller-M.A.C/static/media/Montserrat-Italic.f4a742d68090a0bfc33f.ttf",
     "static/media/Montserrat-ExtraLightItalic.ttf": "/Taller-M.A.C/static/media/Montserrat-ExtraLightItalic.8df5777e3ea85687bdf0.ttf",
@@ -19,11 +19,11 @@
     "static/media/ploteo1.jpeg": "/Taller-M.A.C/static/media/ploteo1.d5e7e9a19e6c3ea1f7ac.jpeg",
     "static/media/checkbox.webp": "/Taller-M.A.C/static/media/checkbox.db64ee63480a5506288d.webp",
     "index.html": "/Taller-M.A.C/index.html",
-    "main.995905e3.css.map": "/Taller-M.A.C/static/css/main.995905e3.css.map",
-    "main.915652d0.js.map": "/Taller-M.A.C/static/js/main.915652d0.js.map"
+    "main.e1f5fdda.css.map": "/Taller-M.A.C/static/css/main.e1f5fdda.css.map",
+    "main.194164f7.js.map": "/Taller-M.A.C/static/js/main.194164f7.js.map"
   },
   "entrypoints": [
-    "static/css/main.995905e3.css",
-    "static/js/main.915652d0.js"
+    "static/css/main.e1f5fdda.css",
+    "static/js/main.194164f7.js"
   ]
 }
