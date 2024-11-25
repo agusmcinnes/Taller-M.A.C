@@ -65,10 +65,10 @@ const Ploteo = () => {
             </div>
         </div>
         <div className='ploteo__galeria'>
-            <img src={ploteo1} alt="PLOTEO 1" loading='lazy' className='aparecer__izquierda'/>
-            <img src={ploteo5} alt="PLOTEO 2" loading='lazy' className='aparecer__derecha'/>
-            <img src={ploteo6} alt="PLOTEO 3" loading='lazy' className='aparecer__izquierda'/>
-            <img src={ploteo4} alt="PLOTEO 4" loading='lazy' className='aparecer__derecha'/>
+            <img src={ploteo1} alt="PLOTEO 1" loading='lazy' className='aparecer'/>
+            <img src={ploteo5} alt="PLOTEO 2" loading='lazy' className='aparecer'/>
+            <img src={ploteo6} alt="PLOTEO 3" loading='lazy' className='aparecer'/>
+            <img src={ploteo4} alt="PLOTEO 4" loading='lazy' className='aparecer'/>
         </div>
         <div className='ploteo__precios'>
             <h3 className='ploteo__title'>Precios económicos. ¿Qué esperás?</h3>

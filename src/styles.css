@@ -12,12 +12,14 @@ h1, h2, h3, h4, h5, p, div, img, option, select, body, a, ul, li, picture, sourc
     font-family: "montserrat";
     src: url(../src/Fonts/MontSerrat/Montserrat-Medium.ttf) format("truetype");
     font-weight: 300;
+    font-display: swap;
 }
 
 @font-face {
     font-family: "montserrat-regular";
     src: url(../src/Fonts/MontSerrat/Montserrat-Regular.ttf) format("truetype");
     font-weight: 400;
+    font-display: swap;
 }
 
 
@@ -25,24 +27,28 @@ h1, h2, h3, h4, h5, p, div, img, option, select, body, a, ul, li, picture, sourc
     font-family: "montserrat-thin";
     src: url(../src/Fonts/MontSerrat/Montserrat-Light.ttf) format("truetype");
     font-weight: 100;
+    font-display: swap;
 }
 
 @font-face {
     font-family: "montserrat-italic";
     src: url(../src/Fonts/MontSerrat/Montserrat-ExtraLightItalic.ttf) format("truetype");
     font-weight: 200;
+    font-display: swap;
 }
 
 @font-face {
     font-family: "montserrat-italic-bold";
     src: url(../src/Fonts/MontSerrat/Montserrat-BoldItalic.ttf) format("truetype");
     font-weight: 900;
+    font-display: swap;
 }
 
 @font-face {
     font-family: "montserrat-italic-normal";
     src: url(../src/Fonts/MontSerrat/Montserrat-Italic.ttf) format("truetype");
     font-weight: 500;
+    font-display: swap;
 }
 
 body{
@@ -413,7 +419,7 @@ header{
 
 .tik__img{
     width: clamp(30px, 5vw, 80px);
-    height: fit-content;
+    height: clamp(30px, 5vw, 80px);
 }
 
 .gradiente__naranja{
@@ -630,6 +636,10 @@ footer .red__header{
         width: 90%;
         margin: 0 20px;
     }
+}
+
+.aparecer.animacion {
+    animation: fadeIn 1s ease-in-out;
 }
 
 .aparecer__izquierda.animacion__izquierda {
