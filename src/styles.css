@@ -448,7 +448,8 @@ header{
     grid-template-areas:
       "img1 img2"
       "img3 img2"
-      "img3 img4";
+      "img3 img4"
+      "img5 img5";
     gap: 1.2vw;
     justify-content: center;
     align-items: center;
@@ -478,10 +479,16 @@ header{
   
   .ploteo__galeria img:nth-child(3) {
     grid-area: img3;
+    height: 100%;
   }
   
   .ploteo__galeria img:nth-child(4) {
     grid-area: img4;
+  }
+
+  .ploteo__galeria img:nth-child(5) {
+    grid-area: img5;
+    max-height: 350px;
   }
 
 .ploteo__galeria img:hover{

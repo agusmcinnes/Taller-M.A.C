@@ -1,9 +1,10 @@
 import React from 'react'
 import check from '../imagenes M.A.C/checkbox.webp'
 import ploteo1 from '../imagenes M.A.C/ploteo1.jpeg'
-import ploteo4 from '../imagenes M.A.C/ploteo4.jpeg'
+import ploteo4 from '../imagenes M.A.C/RAM__ploteada.webp'
 import ploteo5 from '../imagenes M.A.C/ploteo5.webp'
 import ploteo6 from '../imagenes M.A.C/ploteo6.webp'
+import paleta from '../imagenes M.A.C/paleta__colores.webp'
 import { useEffect } from 'react'
 
 
@@ -71,11 +72,12 @@ const Ploteo = () => {
             <img src={ploteo5} alt="PLOTEO 2" loading='lazy' className='aparecer'/>
             <img src={ploteo6} alt="PLOTEO 3" loading='lazy' className='aparecer'/>
             <img src={ploteo4} alt="PLOTEO 4" loading='lazy' className='aparecer'/>
+            <img src={paleta} alt="PLOTEO 5" loading='lazy' className='aparecer'/>
         </div>
         <div className='ploteo__precios'>
             <h3 className='ploteo__title aparecer__izquierda__suave'>Precios económicos. ¿Qué esperás?</h3>
             <h4 className='ploteo__subtitle aparecer__izquierda__suave'>¡Ponéle color a tu vida, ponéle color a tu auto!</h4>
-            <p className='ploteo__p aparecer__izquierda__suave'>Pintura inteligente de secado rápido, colores brillantes y colores mate. En 48 horas, retiras tu vehículo totalmente pintado y con el color que vos elijas.</p>
+            <p className='ploteo__p aparecer__izquierda__suave'>Pintura inteligente de secado rápido, colores brillantes y colores mate. En 48 horas, retiras tu vehículo totalmente pintado y con el color que vos elijas. <br /><br />Estamos disponibles de 10:00 a 16:00</p>
         </div>
     </section>
   )
