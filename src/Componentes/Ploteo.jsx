@@ -77,7 +77,7 @@ const Ploteo = () => {
         <div className='ploteo__precios'>
             <h3 className='ploteo__title aparecer__izquierda__suave'>Precios económicos. ¿Qué esperás?</h3>
             <h4 className='ploteo__subtitle aparecer__izquierda__suave'>¡Ponéle color a tu vida, ponéle color a tu auto!</h4>
-            <p className='ploteo__p aparecer__izquierda__suave'>Pintura inteligente de secado rápido, colores brillantes y colores mate. En 48 horas, retiras tu vehículo totalmente pintado y con el color que vos elijas. <br /><br />Estamos disponibles de 10:00 a 16:00</p>
+            <p className='ploteo__p aparecer__izquierda__suave'>Pintura inteligente de secado rápido, colores brillantes y colores mate. En 48 horas, retiras tu vehículo totalmente pintado y con el color que vos elijas. <br /><br />Estamos disponibles de 10:00hs a 16:00hs</p>
         </div>
     </section>
   )
