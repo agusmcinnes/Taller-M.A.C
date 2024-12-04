@@ -26,11 +26,12 @@ function App() {
                     </a>
                     </div>
                     <div className='red__header'>
-                    <a href="https://www.facebook.com/home.php" target='BLANK'>
+                    <a href="https://www.facebook.com/profile.php?id=100063825501915" target='BLANK'>
                         
                         <FontAwesomeIcon icon={faFacebook} />
-                        <span>boeeeeeee</span>
+                        <span>Taller Mac Caiati</span>
                     </a>
+
 
                     </div>
                     <div className='red__header'>
@@ -96,10 +97,10 @@ function App() {
                     </a>
                     </div>
                     <div className='red__header red__footer'>
-                    <a href="https://www.facebook.com/home.php" target='BLANK'>
+                    <a href="https://www.facebook.com/profile.php?id=100063825501915" target='BLANK'>
                         
                         <FontAwesomeIcon icon={faFacebook} />
-                        <span>@facebook</span>
+                        <span>Taller Mac Caiati</span>
                     </a>
 
                     </div>
