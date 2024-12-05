@@ -84,6 +84,7 @@ function App() {
             <Ploteo></Ploteo>
         </main>
         <footer id='contacto'>
+            <div className='contacto__container'>
             <div className='logo__footer'>
                 <img src={logo} alt="" />
             </div>
@@ -114,11 +115,15 @@ function App() {
 
             </div>
             <div className='footer__direc'>
-                    <a href="https://www.google.com/maps/place/CFR,+3+de+Febrero+5818,+B7604+Mar+del+Plata,+Provincia+de+Buenos+Aires/@-37.9798027,-57.5793692,17z/data=!3m1!4b1!4m6!3m5!1s0x9584d9155afc99d7:0x18f6dd170d207153!8m2!3d-37.979807!4d-57.5767943!16s%2Fg%2F11k54mtqfm?authuser=0&entry=ttu&g_ep=EgoyMDI0MTExOC4wIKXMDSoASAFQAw%3D%3D" className='footer__link'>
+                    <a href="https://www.google.com/maps/place/CFR,+3+de+Febrero+5818,+B7604+Mar+del+Plata,+Provincia+de+Buenos+Aires/@-37.9798027,-57.5793692,17z/data=!3m1!4b1!4m6!3m5!1s0x9584d9155afc99d7:0x18f6dd170d207153!8m2!3d-37.979807!4d-57.5767943!16s%2Fg%2F11k54mtqfm?authuser=0&entry=ttu&g_ep=EgoyMDI0MTExOC4wIKXMDSoASAFQAw%3D%3D" className='footer__link' target='BLANK'>
                     <FontAwesomeIcon icon={faMapLocationDot} className='icon__map'/>
                     <span className='footer__direc-text'>3 de febrero 5818 <br />Mar del Plata</span>
                     </a>
 
+            </div>
+            </div>
+                <div className='stairus__link'>
+                    <a href="https://stairus.net/">Desarrollado por: <span className='stairus__name'>Stairus</span></a>
                 </div>
         </footer>
         </div>

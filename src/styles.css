@@ -519,12 +519,18 @@ header{
 }
 
 footer{
+    background-color: #fff;
+    height: fit-content;
+    box-shadow: 0 0px 20px rgba(59, 59, 59, 0.6);
+}
+
+.contacto__container{
     display: flex;
     width: 100%;
     justify-content: space-around;
-    height: fit-content;
     padding: 20px 0;
-    box-shadow: 0 0px 20px rgba(59, 59, 59, 0.6);
+
+    background-color: #fff;
 }
 
 .logo__footer{
@@ -627,8 +633,33 @@ footer .red__header{
     text-decoration: none;
 }
 
+.stairus__link{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 15px 0;
+    background-color: #bbb;
+}
+
+.stairus__link a{
+    color: #000;
+    text-decoration: none;
+    font-size: clamp(0.8rem, 1.5vw, 1.2rem);
+}
+
+.stairus__name{
+    font-weight: 900;
+    transition: all 0.6s;
+
+}
+
+.stairus__name:hover{
+    color: #00ba1f;
+    filter:  drop-shadow(0px 0px 20px #000);
+}
+
 @media screen and (max-width: 900px) {
-    footer{
+    .contacto__container{
         flex-direction: column;
         gap: 40px;
         align-items: center;
